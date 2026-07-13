@@ -1,0 +1,68 @@
+const menuData = [
+  {
+    id: 1,
+    category: "Starters",
+    title: "Caesar Salad",
+    subtitle: "Fresh romaine lettuce with parmesan and croutons.",
+    price: 6.99,
+    img: "/images/Caesar Salad.png",
+  },
+  {
+    id: 2,
+    category: "Starters",
+    title: "Mushroom Soup",
+    subtitle: "Creamy mushroom soup topped with herbs.",
+    price: 5.99,
+    img: "/images/Mushroom Soup.png",
+  },
+  {
+    id: 3,
+    category: "Main Course",
+    title: "Spaghetti Carbonara",
+    subtitle: "Classic Italian pasta with creamy parmesan sauce.",
+    price: 12.99,
+    img: "/images/Spaghetti Carbonara.png",
+  },
+  {
+    id: 4,
+    category: "Main Course",
+    title: "Grilled Ribeye Steak",
+    subtitle: "Tender grilled ribeye served with vegetables.",
+    price: 19.99,
+    img: "/images/grilled ribeye steak.png",
+  },
+  {
+    id: 5,
+    category: "Main Course",
+    title: "Pan Seared Salmon",
+    subtitle: "Fresh salmon fillet with lemon butter sauce.",
+    price: 17.99,
+    img: "/images/pan-seared salmon.png",
+  },
+  {
+    id: 6,
+    category: "Beverages",
+    title: "Mojito",
+    subtitle: "Refreshing mint and lime mocktail.",
+    price: 4.99,
+    img: "/images/Mojito.png",
+  },
+  {
+    id: 7,
+    category: "Dessert",
+    title: "Chocolate Lava Cake",
+    subtitle: "Warm chocolate cake with molten chocolate center.",
+    price: 7.99,
+    img: "/images/Chocolate lava cake.png",
+  },
+  {
+    id: 8,
+    category: "Dessert",
+    title: "Chocolate Lava Cake Special",
+    subtitle: "Served with vanilla ice cream.",
+    price: 8.99,
+    img: "/images/Chocolate lava cake.png",
+  },
+];
+
+export default menuData;
