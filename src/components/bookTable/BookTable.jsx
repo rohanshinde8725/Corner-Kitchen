@@ -37,7 +37,7 @@ const BookTable = () => {
             return;
         }
 
-        alert("Ghari Jaun Bhaat daal khaun zopa");
+        alert("Your Booking has been successfully done.");
         console.log(formData)
 
         setFormData({
