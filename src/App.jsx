@@ -1,4 +1,4 @@
-import AppRoutes from "./routes/Index";
+import AppRoutes from "./Routes/Index";
 import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 
 const App = () => {
