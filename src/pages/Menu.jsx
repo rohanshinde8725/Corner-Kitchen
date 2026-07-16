@@ -5,11 +5,20 @@ import { RiBowlLine } from "react-icons/ri";
 import { PiBowlFood, PiPintGlass } from "react-icons/pi";
 import { motion } from "framer-motion";
 import FadeUp from "../components/fadeUp/FadeUp";
+import OrderModal from "../components/orderModel/OrderModal";
 
 const Menu = () => {
 
   // Active Tab
   const [activeTab, setActiveTab] = useState("All Menu");
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleOrder = (item) => {
+    setSelectedItem(item);
+    setIsModalOpen(true);
+    console.log("Clicked");
+  };
 
   // Tabs
   const tabs = [
@@ -133,7 +142,9 @@ const Menu = () => {
                   </div>
 
                   <div className="flex gap-5 mt-4">
-                    <button className="bg-[#2D3A2D] py-1.5 px-3 text-white text-sm rounded-sm border-2 border-[#2D3A2D] hover:bg-transparent hover:text-[#2D3A2D] cursor-pointer transition-all duration-300">
+                    <button 
+                    onClick={() => handleOrder(item)}
+                    className="bg-[#2D3A2D] py-1.5 px-3 text-white text-sm rounded-sm border-2 border-[#2D3A2D] hover:bg-transparent hover:text-[#2D3A2D] cursor-pointer transition-all duration-300">
                       Order Now
                     </button>
 

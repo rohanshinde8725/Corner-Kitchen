@@ -90,18 +90,18 @@ const About = () => {
                 <div className='text-center md:text-start'>
                     <h5 className='font-serif text-[#C48A3A] text-lg md:text-xl'>About Us</h5>
                     <h1 className='text-3xl font-bold mt-2'>Made wih passsion <br /> Served with love.</h1>
-                    <p className='xl:w-[55%] py-5 text-sm md:text-base text-gray-600 leading-7'>
+                    <p className='xl:w-[75%] py-5 text-sm md:text-base text-gray-600 leading-7'>
                         Founded in 2015, The Corner Kitchen began as a small dream to create a warm and welcoming space where delicious meals are made with the finest ingrediants 
                         and a lot of heart.
                     </p>
-                    <p className='xl:w-[55%] text-sm md:text-base text-gray-600 leading-7'>
+                    <p className='xl:w-[75%] text-sm md:text-base text-gray-600 leading-7'>
                         From our kitchen to your table, we believe in honest food, friendly service, and unforgettable experiences. 
                     </p>
                 </div>
             </FadeUp>
 
             <FadeUp direction="up">
-                <div className='flex xl:gap-20 mt-10 flex-col gap-10 md:flex-row'>
+                <div className='flex mt-10 flex-col gap-10 md:flex-row'>
                     <div className='2xl:w-[20%] flex flex-col items-center text-center'>
                         <LuLeaf className='xl:text-4xl text-2xl h-15 w-15 p-3 bg-[#f1e6d8] rounded-full'/>
                         <h1 className='my-2 xl:text-xl text-xl font-semibold'>Fresh Ingredients</h1>
