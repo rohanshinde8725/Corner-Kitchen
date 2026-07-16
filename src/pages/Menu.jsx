@@ -159,6 +159,12 @@ const Menu = () => {
         </div>
       </div>
       {/* Menu Content End */}
+
+      <OrderModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        item={selectedItem}
+      />
     </div>
   );
 };

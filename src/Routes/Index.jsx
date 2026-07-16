@@ -25,15 +25,15 @@ const AppRoutes = () => {
     return (
         <>
             <Routes>
-                <Route path='/' element={<MainLayout />}>
+                        <Route path='/' element={<MainLayout />}>
                     <Route index element={<Home />} />
                     <Route path='about' element={<About />} />
-                    <Route path='/menu' element={<Menu />} />
-                    <Route path='/ourchefs' element={<OurChefs />} />
-                    <Route path='/review' element={<Reviews />} />
-                    <Route path='/contact' element={<Contact />} />
-                    <Route path='/book' element={<BookTable />} />
-                    <Route path='/learn' element={<LearnMoreAboutUs />} />
+                    <Route path='menu' element={<Menu />} />
+                    <Route path='ourchefs' element={<OurChefs />} />
+                    <Route path='review' element={<Reviews />} />
+                    <Route path='contact' element={<Contact />} />
+                    <Route path='book' element={<BookTable />} />
+                    <Route path='learn' element={<LearnMoreAboutUs />} />
                 </Route>
             </Routes>
         </>
