@@ -14,8 +14,8 @@ const OurChefs = () => {
             chef : "Head Chef",
             desc : "Over 15 years of experience in Italian cuisine. Specialist in handmade pasta and fine dining.",
             facebook : "https://www.facebook.com/",
-            instagram : "https://www.instagram.com/",
-            linkedIn : "https://www.linkedin.com/",
+            instagram : "https://www.instagram.com/_rohan_.0710",
+            linkedIn : "https://www.linkedin.com/in/rohan-shinde-397195256/",
         },
         {
             img: 'images/chef-2.png',
@@ -23,8 +23,8 @@ const OurChefs = () => {
             chef : "Sous Chef",
             desc : "Expert in modern European cuisine with a passion for fresh ingredients and bold flavors.",
             facebook : "https://www.facebook.com/",
-            instagram : "https://www.instagram.com/",
-            linkedIn : "https://www.linkedin.com/",
+            instagram : "https://www.instagram.com/_rohan_.0710",
+            linkedIn : "https://www.linkedin.com/in/rohan-shinde-397195256/",
         },
         {
             img: 'images/chef-3.png',
@@ -32,8 +32,8 @@ const OurChefs = () => {
             chef : "Chef de Cuisine",
             desc : "Specializes in grilled dishes and seafood. Known for precision, creativity, and presentation.",
             facebook : "https://www.facebook.com/",
-            instagram : "https://www.instagram.com/",
-            linkedIn : "https://www.linkedin.com/",
+            instagram : "https://www.instagram.com/_rohan_.0710",
+            linkedIn : "https://www.linkedin.com/in/rohan-shinde-397195256/",
         },
         {
             img: 'images/chef-4.png',
@@ -41,8 +41,26 @@ const OurChefs = () => {
             chef : "Pastry Chef",
             desc : "Creates delightul desserts that perfectly balance flavor, texture, and artistry.",
             facebook : "https://www.facebook.com/",
-            instagram : "https://www.instagram.com/",
-            linkedIn : "https://www.linkedin.com/",
+            instagram : "https://www.instagram.com/_rohan_.0710",
+            linkedIn : "https://www.linkedin.com/in/rohan-shinde-397195256/",
+        },
+        {
+            img: "images/chef-5.png",
+            name: "Liam Anderson",
+            chef: "Executive Chef",
+            desc: "Passionate about crafting signature dishes using fresh ingredients and modern culinary techniques.",
+            facebook: "https://www.facebook.com/",
+            instagram: "https://www.instagram.com/_rohan_.0710",
+            linkedIn: "https://www.linkedin.com/in/rohan-shinde-397195256/",
+        },
+        {
+            img: "images/chef-6.png",
+            name: "Olivia Bennett",
+            chef: "Sous Chef",
+            desc: "Specializes in creating flavorful international cuisine with precision, creativity, and consistency.",
+            facebook: "https://www.facebook.com/",
+            instagram: "https://www.instagram.com/_rohan_.0710",
+            linkedIn: "https://www.linkedin.com/in/rohan-shinde-397195256/",
         },
     ]
 
@@ -74,7 +92,7 @@ const OurChefs = () => {
     
     ]
   return (
-    <div>
+    <div className='bg-[#f1f1f1]'>
         {/* Banner Section Start here */}
         <section className="bg-[url('/images/chefBanner.png')] bg-cover bg-center min-h-screen w-full relative">
 
@@ -122,7 +140,7 @@ const OurChefs = () => {
 
             <div className='py-20 px-5 lg:px-10 xl:px-30 xl:py-15'>
                 <FadeUp direction="up">
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                         {chefs.map((chef, index)=> (
                             <div 
                             key={index}
@@ -134,7 +152,7 @@ const OurChefs = () => {
                                     src={chef.img} alt="" />
                                 </div>
 
-                                <div className='text-center py-5 px-10 shadow rounded-b-sm'>
+                                <div className='text-center py-5 px-10 shadow rounded-b-sm min-h-72.5 bg-white'>
                                     <h1 className='text-2xl font-semibold'>{chef.name}</h1>
                                     <h3 className='text-[#D9A15B] my-3 text-lg font-semibold'>{chef.chef}</h3>
                                     <p className='text-gray-600 text-lg'>{chef.desc}</p>

@@ -37,7 +37,7 @@ const BookTable = () => {
             return;
         }
 
-        alert("Your Booking has been successfully done.");
+        alert("Your table has been booked successfully!");
         console.log(formData)
 
         setFormData({
